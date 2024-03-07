@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitio web falso - BancoEjemplo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo-bancoejemplo.png" alt="Banco Ejemplo">
+  </header>
+  <main>
+    <h1>Acceso a tu cuenta</h1>
+    <p>Por favor, ingresa tus datos para acceder a tu cuenta.</p>
+    <form action="procesar_formulario.php" method="POST">
+      <label for="email">Usuario:</label>
+      <input type="text" id="email" name="email" placeholder="Ingresa tu correo">
+      <br>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+      <br>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+    <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 Banco Ejemplo</p>
+  </footer>
+</body>
+</html>
