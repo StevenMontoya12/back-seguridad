@@ -12,8 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   mail($to, $subject, $message);
 
   // Redirigir al usuario a Google
-  header("Location: https://www.google.com");
-  exit();
+
 }
 
 ?>
